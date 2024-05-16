@@ -12,7 +12,10 @@ module.exports = {
     }, {}),
     extend: {
       colors: {
-        'primary-yellow': '#F9D54A'
+        'primary-yellow': '#F9D54A',
+        'gray-menu': '#242424',
+        'download-card': '#513F33',
+        'card-line': 'rgb(102,73,54)'
       },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),
