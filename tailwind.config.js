@@ -11,6 +11,9 @@ module.exports = {
       return map;
     }, {}),
     extend: {
+      colors: {
+        'primary-yellow': '#F9D54A'
+      },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),
       }),
