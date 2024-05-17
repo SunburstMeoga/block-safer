@@ -53,7 +53,7 @@ const Home = () => {
             return <div key={index} className='w-full flex flex-col justify-start items-start mb-2-7'>
               <div className='w-full h-0-1 bg-title-word mb-2-7'></div>
               <div className='flex justify-start items-start'>
-                <div className='w-0-9 h-0-9 bg-title-word mr-1-8 mt-1-0'></div>
+                <div className='w-0-9 h-0-9 bg-title-word mr-1-8 mt-0-6'></div>
                 <div className='text-title-word w-17-0'>
                   <div className='text-2-0 font-extrabold text-title-word mb-2-5'>{item.title}</div>
                   <div className='text-1-3 font-semibold line-height-numnber-69 w-16-3'>{ item.content}</div>
