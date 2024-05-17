@@ -40,22 +40,23 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='bg-card-white pt-5-0 w-full relative'>
-        <div className='text absolute right-auto top-7-6'>
+      <div className='bg-card-white w-full relative'>
+        <div className='text absolute right-auto'>
           <img className='' src='/images/phone/home-bg-tow.png' alt=''></img>
         </div>
-        <div className='text-4-0 font-extrabold pl-1-3 relative z-10'>
+        <div className='text-4-0 font-extrabold pl-1-3 relative z-10 pt-7-0 '>
           <div className='text-title-word'>Why <br></br>Choose us</div>
           <div className='line-height-point-149-2 text-1-5 font-semibold w-18-6 mt-2-9'>Here's everything you need to manage your digital assets</div>
         </div>
-        <div className='w-22-5 flex flex-col justify-start items-center'>
+        <div className='w-24-5 flex flex-col justify-start items-center relative z-10 ml-auto mr-auto mt-3-8'>
           {whyChooseUs.map((item, index) => {
-            <div key={index} className='w-full flex flex-col justify-start items-center'>
+            return <div key={index} className='w-full flex flex-col justify-start items-start mb-2-7'>
               <div className='w-full h-0-1 bg-title-word mb-2-7'></div>
-              <div className='flex justify-start items-center'>
-                <div className='w-0-9 h-0-9 bg-title-word mr-1-8'></div>
-                <div className='text-title-word'>
-                  <div className=''></div>
+              <div className='flex justify-start items-start'>
+                <div className='w-0-9 h-0-9 bg-title-word mr-1-8 mt-1-0'></div>
+                <div className='text-title-word w-17-0'>
+                  <div className='text-2-0 font-extrabold text-title-word mb-2-5'>{item.title}</div>
+                  <div className='text-1-3 font-semibold line-height-numnber-69 w-16-3'>{ item.content}</div>
                 </div>
               </div>
             </div>
