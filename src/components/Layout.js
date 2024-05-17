@@ -7,7 +7,7 @@ const Layout = () => {
     <div>
           <MenuBar></MenuBar>
           <div className='-mt-0-1'><Outlet></Outlet></div>
-          <FooterBar></FooterBar>
+          {/* <FooterBar></FooterBar> */}
     </div>
   )
 }

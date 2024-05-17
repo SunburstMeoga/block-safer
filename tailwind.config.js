@@ -13,6 +13,8 @@ module.exports = {
     extend: {
       colors: {
         'primary-yellow': '#F9D54A',
+        'card-white': '#F1F1FC',
+        'title-word': '#222222',
         'gray-menu': '#242424',
         'download-card': '#513F33',
         'card-line': 'rgb(102,73,54)'
