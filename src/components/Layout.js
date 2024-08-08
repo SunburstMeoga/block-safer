@@ -5,9 +5,9 @@ import FooterBar from './FooterBar'
 const Layout = () => {
   return (
     <div>
-          <MenuBar></MenuBar>
-          <div className='-mt-0-1'><Outlet></Outlet></div>
-          {/* <FooterBar></FooterBar> */}
+      <MenuBar></MenuBar>
+      <div className='-mt-0-1'><Outlet></Outlet></div>
+      <FooterBar></FooterBar>
     </div>
   )
 }
