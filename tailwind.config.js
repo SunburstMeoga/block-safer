@@ -14,9 +14,15 @@ module.exports = {
       backgroundImage: {
         "gradient-home-title": "linear-gradient(90deg, rgba(206,149,110,0.11) 0%, rgba(206,149,110,1) 54%, rgba(206,149,110,0) 100%)",
         "home-module-download": "url('/public/images/phone/home-module-download.png')",
+        "pad-home-module-download": "url('/public/images/pad/home-module-download.png')",
         "home-module-choose": "url('/public/images/phone/home-module-choose.png')",
+        "pad-home-module-choose": "url('/public/images/pad/home-module-choose.png')",
+
         "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",
+        "pad-home-module-advantage": "url('/public/images/pad/home-module-advantage.png')",
+
         "home-download-button": "url('/public/images/phone/home-download-button.png')",
+        "pad-home-download-button": "url('/public/images/pad/home-download-button.png')",
         "home-choose-banner": "url('/public/images/phone/home-choose-banner.png')"
       },
       colors: {
