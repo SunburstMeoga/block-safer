@@ -1,17 +1,33 @@
 @font-face {
   font-family: "iconfont";
   /* Project id 4550316 */
-  src: url('//at.alicdn.com/t/c/font_4550316_qou7kcezfrp.woff2?t=1723193813750') format('woff2'),
-    url('//at.alicdn.com/t/c/font_4550316_qou7kcezfrp.woff?t=1723193813750') format('woff'),
-    url('//at.alicdn.com/t/c/font_4550316_qou7kcezfrp.ttf?t=1723193813750') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_4550316_ed4mnk6pp64.woff2?t=1723224977538') format('woff2'),
+    url('//at.alicdn.com/t/c/font_4550316_ed4mnk6pp64.woff?t=1723224977538') format('woff'),
+    url('//at.alicdn.com/t/c/font_4550316_ed4mnk6pp64.ttf?t=1723224977538') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  /* font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+}
+
+.icon-discord:before {
+  content: "\f18d";
+}
+
+.icon-instagram:before {
+  content: "\e6fc";
+}
+
+.icon-Linkedin:before {
+  content: "\e6b9";
+}
+
+.icon-tuite:before {
+  content: "\ee49";
+}
+
+.icon-right:before {
+  content: "\e93e";
 }
 
 .icon-menu:before {

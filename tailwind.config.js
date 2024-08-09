@@ -29,7 +29,9 @@ module.exports = {
 
         'module-title': '#CE956E',
         'menu-bar': "#020202",
-        'menu-icon': "#FFCFAB"
+        'menu-icon': "#FFCFAB",
+        'footer-logo': "#9D9D9C",
+        'footer-word': "#F9B292"
       },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),

@@ -49,7 +49,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='h-47-8 bg-center bg-cover bg-no-repeat bg-home-module-advantage relative'>
+        <div className='h-47-8 bg-center bg-cover bg-no-repeat bg-home-module-advantage relative '>
           <div className='pt-3-4 text-module-title text-2-2 flex justify-center items-center'>
             Our Advantage
           </div>
@@ -57,6 +57,15 @@ const Home = () => {
             <div className='bg-home-download-button bg-no-repeat bg-center w-full h-3-3 text-white text-1-5 flex justify-center items-center -mt-1-5 relative z-10'>
               Download
             </div>
+          </div>
+        </div>
+
+        <div className='w-full  flex flex-col justify-start items-center mt-2-0'>
+          <div className='flex flex-col justify-start items-center px-2-7 text-module-title text-2-2 mb-1-0'>
+            Installation Steps
+          </div>
+          <div className='bg-module-title w-full h-13-7'>
+
           </div>
         </div>
       </div>
