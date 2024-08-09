@@ -13,9 +13,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-home-title": "linear-gradient(90deg, rgba(206,149,110,0.11) 0%, rgba(206,149,110,1) 54%, rgba(206,149,110,0) 100%)",
-        "phone-home-module-manage": "url('/public/images/phone/home-module-manage.png')",
-        "phone-home-module-choose": "url('/public/images/phone/home-module-choose.png')",
-        "phone-home-module-advantage": "url('/public/images/phone/home-module-advantage.png')"
+        "home-module-download": "url('/public/images/phone/home-module-download.png')",
+        "home-module-choose": "url('/public/images/phone/home-module-choose.png')",
+        "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",
+        "home-download-button": "url('/public/images/phone/home-download-button.png')",
+        "home-choose-banner": "url('/public/images/phone/home-choose-banner.png')"
       },
       colors: {
         'primary-yellow': '#F9D54A',
@@ -24,9 +26,15 @@ module.exports = {
         'gray-menu': '#242424',
         'download-card': '#513F33',
         'card-line': 'rgb(102,73,54)',
-        'module-title': '#CE956E'
+
+        'module-title': '#CE956E',
+        'menu-bar': "#020202",
+        'menu-icon': "#FFCFAB"
       },
       fontSize: ({ theme }) => ({
+        ...theme("spacing"),
+      }),
+      lineHeight: ({ theme }) => ({
         ...theme("spacing"),
       }),
     },
