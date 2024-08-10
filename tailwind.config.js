@@ -13,11 +13,15 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-home-title": "linear-gradient(90deg, rgba(206,149,110,0.11) 0%, rgba(206,149,110,1) 54%, rgba(206,149,110,0) 100%)",
+        "gradient-wallet-explore": "linear-gradient(180deg, rgba(21,23,32,1) 0%, rgba(62,63,67,1) 54%);",
+        "gradient-wallet-word": "linear-gradient(90deg, rgba(122,123,131,1) 0%, rgba(217,219,233,1) 49%, rgba(122,123,131,0.35) 100%);",
         "home-module-download": "url('/public/images/phone/home-module-download.png')",
         "pad-home-module-download": "url('/public/images/pad/home-module-download.png')",
         "home-module-choose": "url('/public/images/phone/home-module-choose.png')",
         "pad-home-module-choose": "url('/public/images/pad/home-module-choose.png')",
         "pc-home-module-choose": "url('/public/images/pc/home-module-choose.png')",
+        "wallet-module-explore": "url('/public/images/phone/wallet-module-explore.png')",
+        "wallet-module-explore-small": "url('/public/images/phone/wallet-module-explore-small.png')",
 
 
         "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",

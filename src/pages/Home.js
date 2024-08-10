@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <>
       <div className='pt-4-4 bg-black lg:pt-6-0 xl:pt-0-1'>
-        <div className='w-full h-auto ' >
+        <div className='w-full h-auto animate__animated animate__fadeIn' >
           <img src='/images/phone/home-module-download.png' alt="" className='lg:hidden'></img>
           <img src='/images/pad/home-module-download.png' alt="" className='hidden lg:block xl:hidden'></img>
           <img src='/images/pc/home-module-download.png' alt="" className='hidden xl:block'></img>
