@@ -17,12 +17,17 @@ module.exports = {
         "pad-home-module-download": "url('/public/images/pad/home-module-download.png')",
         "home-module-choose": "url('/public/images/phone/home-module-choose.png')",
         "pad-home-module-choose": "url('/public/images/pad/home-module-choose.png')",
+        "pc-home-module-choose": "url('/public/images/pc/home-module-choose.png')",
+
 
         "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",
         "pad-home-module-advantage": "url('/public/images/pad/home-module-advantage.png')",
+        "pc-home-module-advantage": "url('/public/images/pc/home-module-advantage.png')",
 
         "home-download-button": "url('/public/images/phone/home-download-button.png')",
         "pad-home-download-button": "url('/public/images/pad/home-download-button.png')",
+        "pc-home-download-button": "url('/public/images/pc/home-download-button.png')",
+
         "home-choose-banner": "url('/public/images/phone/home-choose-banner.png')"
       },
       colors: {
