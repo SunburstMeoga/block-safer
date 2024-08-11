@@ -21,6 +21,8 @@ module.exports = {
         "pad-home-module-choose": "url('/public/images/pad/home-module-choose.png')",
         "pc-home-module-choose": "url('/public/images/pc/home-module-choose.png')",
         "wallet-module-explore": "url('/public/images/phone/wallet-module-explore.png')",
+        "pc-wallet-module-explore": "url('/public/images/pc/wallet-module-explore.png')",
+
         "wallet-module-explore-small": "url('/public/images/phone/wallet-module-explore-small.png')",
 
 
