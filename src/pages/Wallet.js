@@ -10,14 +10,14 @@ const Wallet = () => {
         setFocusSearch(false)
     }
     return (
-        <div className='pt-4-4 bg-black lg:pt-6-0'>
-            <div className='w-full flex-col justify-start items-center px-1-2'>
-                <div className='rounded-3xl bg-gradient-wallet-explore'>
-                    <div className={`transition duration-500 ease-in bg-bottom bg-cover bg-no-repeat bg-wallet-module-explore px-2-7 py-3-3 ${focusSearch ? 'h-38-9' : 'h-35-4'}`}>
-                        <div className='bg-clip-text bg-gradient-home-title text-2-2 font-medium text-transparent mb-1-4 '>
+        <div className='pt-4-4 bg-black lg:pt-6-0 lg:pb-6-3'>
+            <div className='w-full flex-col justify-start items-center px-1-2 lg:px-4-0'>
+                <div className='rounded-3xl bg-gradient-wallet-explore lg:mt-3-8'>
+                    <div className={`transition duration-500 ease-in bg-bottom bg-cover bg-no-repeat bg-wallet-module-explore px-2-7 py-3-3 lg:py-5-0 ${focusSearch ? 'h-38-9 lg:h-32-5' : 'h-35-4 lg:h-30-5'}`}>
+                        <div className='bg-clip-text bg-gradient-home-title text-2-2 font-medium text-transparent mb-1-4 lg:text-3-0'>
                             Explore
                         </div>
-                        <div className={`transition duration-500 ease-in bg-clip-text bg-gradient-wallet-word leading-1-5 text-1-0 font-light text-transparent  text-shadow ${focusSearch ? 'mb-1-5' : 'mb-7-0'}`}>
+                        <div className={`transition duration-500 ease-in bg-clip-text bg-gradient-wallet-word leading-1-5 text-1-0 font-light text-transparent  text-shadow lg:text-2-0 lg:leading-3-0 ${focusSearch ? 'mb-1-5' : 'mb-7-0'}`}>
                             the range of digital assets <br className=''></br> supported by Block Safer.
                         </div>
                         <div className='w-full bg-white rounded-full px-1-3 py-1-0 flex justify-start items-center'>
