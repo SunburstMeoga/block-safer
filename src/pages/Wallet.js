@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { currencyItems } from '../utils/dictionary'
 const Wallet = () => {
     let [focusSearch, setFocusSearch] = useState(false)
-    let [currencyItemsList, setCurrencyItems] = useState(currencyItems)
+    // let [currencyItemsList, setCurrencyItems] = useState(currencyItems)
     const handleFocus = () => {
         setFocusSearch(true)
     }
@@ -30,7 +30,7 @@ const Wallet = () => {
                         </div>
                         {focusSearch && <div className='mt-3-2'>
                             <div className='w-full flex justify-between flex-wrap'>
-                                {currencyItemsList.map((item, index) => {
+                                {currencyItems.map((item, index) => {
                                     return <div key={index} className='flex flex-col justify-start items-center w-5-5 text-module-title mb-2-0 xl:mb-3-0'>
                                         <div className={`w-3-8 h-3-8 rounded-full flex justify-center items-center bg-currency-items shadow-xl mb-1-0 xl:mb-2-0 xl:w-7-5 xl:h-7-5`}>
                                             <div className={`icon iconfont ${item.icon} text-2-0 xl:text-4-2 `}></div>

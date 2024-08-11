@@ -25,6 +25,10 @@ module.exports = {
 
         "wallet-module-explore-small": "url('/public/images/phone/wallet-module-explore-small.png')",
 
+        "support-module-info": "url('/public/images/phone/support-module-info.png')",
+
+        "support-module-team": "url('/public/images/phone/support-module-team.png')",
+
 
         "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",
         "pad-home-module-advantage": "url('/public/images/pad/home-module-advantage.png')",
@@ -49,7 +53,9 @@ module.exports = {
         'menu-icon': "#FFCFAB",
         'footer-logo': "#9D9D9C",
         'footer-word': "#F9B292",
-        'currency-items': "#414248"
+        'currency-items': "#414248",
+        'support-title': "#392821",
+        'primary-yellow10': 'rgba(201,201,224,.1)'
       },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),

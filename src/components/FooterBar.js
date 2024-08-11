@@ -9,7 +9,7 @@ const FooterBar = () => {
           <div className='w-3-9'>
             <img className='' src='/images/phone/footer-logo.png' alt='logo'></img>
           </div>
-          <div className='ml-1-3 text-2-0 text-footer-logo lg:ml-2-5 xl:ml-2-3'>Block Saver</div>
+          <div className='ml-1-3 text-2-0 text-footer-logo lg:ml-2-5 xl:ml-2-3'>Block Safer</div>
         </div>
         <div className='w-full pl-1-7 pr-1-0 text-module-title text-2-0 leading-2-6 mb-2-1 lg:text-3-0 lg:px-6-0 xl:px-9-0 lg:leading-4-4 lg:font-medium lg:mb-5-0 xl:text-3-0 xl:font-light xl:mb-4-8'>
           Use Safe Neighborhood to help <br className='hidden lg:block xl:hidden'></br> you organize  <br className='hidden xl:block'></br> your finances today.
