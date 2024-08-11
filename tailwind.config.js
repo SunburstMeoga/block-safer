@@ -46,7 +46,8 @@ module.exports = {
         'menu-bar': "#020202",
         'menu-icon': "#FFCFAB",
         'footer-logo': "#9D9D9C",
-        'footer-word': "#F9B292"
+        'footer-word': "#F9B292",
+        'currency-items': "#414248"
       },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),

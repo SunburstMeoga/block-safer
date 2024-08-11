@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-
+import { currencyItems } from '../utils/dictionary'
 const Wallet = () => {
     let [focusSearch, setFocusSearch] = useState(false)
+    let [currencyItemsList, setCurrencyItems] = useState(currencyItems)
     const handleFocus = () => {
         setFocusSearch(true)
     }
@@ -12,7 +13,7 @@ const Wallet = () => {
         <div className='pt-4-4 bg-black lg:pt-6-0'>
             <div className='w-full flex-col justify-start items-center px-1-2'>
                 <div className='rounded-3xl bg-gradient-wallet-explore'>
-                    <div className={`transition duration-500 ease-in bg-bottom bg-cover bg-no-repeat bg-wallet-module-explore px-2-7 py-3-3 ${focusSearch ? 'h-51-9' : 'h-35-4'}`}>
+                    <div className={`transition duration-500 ease-in bg-bottom bg-cover bg-no-repeat bg-wallet-module-explore px-2-7 py-3-3 ${focusSearch ? 'h-38-9' : 'h-35-4'}`}>
                         <div className='bg-clip-text bg-gradient-home-title text-2-2 font-medium text-transparent mb-1-4 '>
                             Explore
                         </div>
@@ -27,6 +28,18 @@ const Wallet = () => {
                                 <input onFocus={handleFocus} onBlur={handleBlur} className='bg-transparent w-full h-2-2 placeholder:text-black placeholder:font-medium outline-none' placeholder='Search Currency'></input>
                             </div>
                         </div>
+                        {focusSearch && <div className='mt-3-2'>
+                            <div className='w-full flex justify-between flex-wrap'>
+                                {currencyItemsList.map((item, index) => {
+                                    return <div key={index} className='flex flex-col justify-start items-center w-5-5 text-module-title mb-2-0'>
+                                        <div className={`w-3-8 h-3-8 rounded-full flex justify-center items-center bg-currency-items shadow-xl mb-1-0`}>
+                                            <div className={`icon iconfont ${item.icon} text-2-0`}></div>
+                                        </div>
+                                        <div className='text-1-0'>{item.title}</div>
+                                    </div>
+                                })}
+                            </div>
+                        </div>}
                     </div>
                 </div>
             </div>

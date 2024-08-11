@@ -1,13 +1,38 @@
 @font-face {
   font-family: "iconfont";
   /* Project id 4550316 */
-  src: url('//at.alicdn.com/t/c/font_4550316_ed4mnk6pp64.woff2?t=1723224977538') format('woff2'),
-    url('//at.alicdn.com/t/c/font_4550316_ed4mnk6pp64.woff?t=1723224977538') format('woff'),
-    url('//at.alicdn.com/t/c/font_4550316_ed4mnk6pp64.ttf?t=1723224977538') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_4550316_v0xmuj5hha.woff2?t=1723396201787') format('woff2'),
+    url('//at.alicdn.com/t/c/font_4550316_v0xmuj5hha.woff?t=1723396201787') format('woff'),
+    url('//at.alicdn.com/t/c/font_4550316_v0xmuj5hha.ttf?t=1723396201787') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
+
+}
+
+.icon-bitcoin:before {
+  content: "\e8cf";
+}
+
+.icon-Cardano:before {
+  content: "\e612";
+}
+
+.icon-logo-binance:before {
+  content: "\e614";
+}
+
+.icon-a-16_Lined_ripple:before {
+  content: "\e730";
+}
+
+.icon-ethereum:before {
+  content: "\ebfb";
+}
+
+.icon-a-solana-sol:before {
+  content: "\e956";
 }
 
 .icon-discord:before {

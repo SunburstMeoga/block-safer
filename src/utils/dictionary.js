@@ -14,5 +14,13 @@ export const menuItems = [
     { id: 1, title: 'Wallet', router: '/wallet' },
     { id: 2, title: 'Support assets', router: '/support-assets' },
     { id: 3, title: 'About Us', router: '/about-us' },
+]
+export const currencyItems = [
+    { id: 1, title: 'Solana', icon: 'icon-a-solana-sol' },
+    { id: 2, title: 'Ripple', icon: 'icon-a-16_Lined_ripple' },
+    { id: 3, title: 'Binance', icon: 'icon-logo-binance' },
+    { id: 4, title: 'Bitcoin', icon: 'icon-bitcoin' },
+    { id: 5, title: 'Cardano', icon: 'icon-Cardano' },
+    { id: 6, title: 'Ethereum', icon: 'icon-ethereum' },
 
 ]
