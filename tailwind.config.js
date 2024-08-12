@@ -29,6 +29,8 @@ module.exports = {
 
         "support-module-team": "url('/public/images/phone/support-module-team.png')",
 
+        "support-module-vision": "url('/public/images/phone/support-module-vision.png')",
+
 
         "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",
         "pad-home-module-advantage": "url('/public/images/pad/home-module-advantage.png')",
@@ -43,7 +45,7 @@ module.exports = {
       colors: {
         'primary-yellow': '#F9D54A',
         'card-white': '#F4F4FD',
-        'title-word': '#222222',
+
         'gray-menu': '#242424',
         'download-card': '#513F33',
         'card-line': 'rgb(102,73,54)',
@@ -55,7 +57,9 @@ module.exports = {
         'footer-word': "#F9B292",
         'currency-items': "#414248",
         'support-title': "#392821",
-        'primary-yellow10': 'rgba(201,201,224,.1)'
+        'primary-yellow10': 'rgba(201,201,224,.1)',
+        'title-word': '#222222',
+        'version-title': '#383330'
       },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),

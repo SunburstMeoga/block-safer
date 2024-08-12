@@ -22,5 +22,33 @@ export const currencyItems = [
     { id: 4, title: 'Bitcoin', icon: 'icon-bitcoin' },
     { id: 5, title: 'Cardano', icon: 'icon-Cardano' },
     { id: 6, title: 'Ethereum', icon: 'icon-ethereum' },
-
+]
+export const versionInfoItems = [
+    {
+        id: 1, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-one.png',
+        detailItems: [
+            '(1) The first version is released, including basic wallet functions, such as private key management, digital asset viewing, simple transaction functions, etc.',
+            '(2) Users can safely store and manage their cryptocurrency assets',
+            '(3) Provides a simple and intuitive user interface to facilitate users to get started.'
+        ],
+        showMore: false
+    },
+    {
+        id: 3, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-one.png',
+        detailItems: [
+            '(1) The first version is released, including basic wallet functions, such as private key management, digital asset viewing, simple transaction functions, etc.',
+            '(2) Users can safely store and manage their cryptocurrency assets',
+            '(3) Provides a simple and intuitive user interface to facilitate users to get started.'
+        ],
+        showMore: false
+    },
+    {
+        id: 2, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-one.png',
+        detailItems: [
+            '(1) The first version is released, including basic wallet functions, such as private key management, digital asset viewing, simple transaction functions, etc.',
+            '(2) Users can safely store and manage their cryptocurrency assets',
+            '(3) Provides a simple and intuitive user interface to facilitate users to get started.'
+        ],
+        showMore: false
+    },
 ]
