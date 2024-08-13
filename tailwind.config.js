@@ -27,10 +27,12 @@ module.exports = {
 
         "support-module-info": "url('/public/images/phone/support-module-info.png')",
         "pad-support-module-info": "url('/public/images/pad/support-module-info.png')",
+        "pc-support-module-info": "url('/public/images/pc/support-module-info.png')",
 
 
         "support-module-team": "url('/public/images/phone/support-module-team.png')",
         "pad-support-module-team": "url('/public/images/pad/support-module-team.png')",
+        "pc-support-module-team": "url('/public/images/pc/support-module-team.png')",
 
 
         "support-module-vision": "url('/public/images/phone/support-module-vision.png')",

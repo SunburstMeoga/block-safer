@@ -19,29 +19,31 @@ const SupportAssets = () => {
     }
     return (
         <div className='pt-4-4 bg-support-title lg:pt-6-0 xl:pt-0-1'>
-            <div className='w-full bg-no-repeat bg-bottom  bg-support-module-info h-60-1 mt-1-5 lg:bg-pad-support-module-info lg:h-72-0 lg:mt-2-5'>
-                <div className='w-full px-3-1 lg:px-0-1 lg:mb-23-0'>
-                    {infoItems.map((item, index) => {
-                        return <div key={index} className='mb-2-0 lg:mb-3-4 lg:flex justify-center items-baseline  lg:text-white lg:border-b lg:border-white'>
-                            <div className='text-module-title text-1-5  mb-1-0 lg:text-white lg:text-3-0 lg:mb-0-1 lg:font-semibold'>{item.title}</div>
-                            <div className='text-white text-1-0 lg:text-1-5 lg:ml-1-0 lg:font-semibold'>{item.content}</div>
-                        </div>
-                    })}
-                </div>
-                <div className='w-full px-1-9 lg:px-3-2 lg:flex justify-between items-center'>
-                    {advantageItems.map((item, index) => {
-                        return <div key={index} className='h-6-3 w-full rounded-3xl bg-primary-yellow10 flex justify-start items-center pl-2-7 mb-1-0 backdrop-blur-xl lg:w-17-0 lg:h-24-0 lg:flex lg:flex-col lg:justify-center lg:items-center lg:pl-0-1'>
-                            <div className='w-4-4 lg:w-10-5 lg:mb-4-8'>
-                                <img src={item.img} alt=''></img>
+            <div className='w-full bg-no-repeat bg-bottom  bg-support-module-info h-60-1 mt-1-5 lg:bg-pad-support-module-info lg:h-72-0 lg:mt-2-5 xl:bg-pc-support-module-info xl:h-67-5  xl:mt-auto'>
+                <div className='w-full xl:flex justify-between items-start xl:pt-9-9 '>
+                    <div className='w-full px-3-1 lg:px-0-1 lg:mb-23-0 xl:mb-0-1 xl:px-0-1 xl:mt-8-0'>
+                        {infoItems.map((item, index) => {
+                            return <div key={index} className='mb-2-0 lg:mb-3-4 lg:flex justify-center items-baseline  lg:text-white lg:border-b lg:border-white xl:pl-7-0 xl:w-72-5'>
+                                <div className='text-module-title text-1-5  mb-1-0 lg:text-white lg:text-3-0 lg:mb-0-1 lg:font-semibold xl:text-4-0'>{item.title}</div>
+                                <div className='text-white text-1-0 lg:text-1-5 lg:ml-1-0 lg:font-semibold '>{item.content}</div>
                             </div>
-                            <div className='text-primary-yellow ml-2-0 text-1-5 lg:ml-0-1 lg:font-bold lg:text-2-0'>{item.title}</div>
-                        </div>
-                    })}
+                        })}
+                    </div>
+                    <div className='w-full px-1-9 items-center lg:px-3-2  lg:flex lg:justify-between  xl:flex-col xl:justify-start xl:px-0-1 xl:flex-1 xl:pr-12-1'>
+                        {advantageItems.map((item, index) => {
+                            return <div key={index} className='h-6-3 w-full rounded-3xl bg-primary-yellow10 flex justify-start items-center pl-2-7 mb-1-0 backdrop-blur-xl lg:w-17-0 lg:h-24-0 lg:flex lg:flex-col lg:justify-center lg:items-center lg:pl-0-1 xl:w-30-5 xl:h-14-4 xl:rounded-2xl xl:flex-row-reverse xl:justify-around '>
+                                <div className='w-4-4 lg:w-10-5 lg:mb-4-8 xl:w-10-6 xl:mb-0-1 '>
+                                    <img src={item.img} alt=''></img>
+                                </div>
+                                <div className='text-primary-yellow ml-2-0 text-1-5 lg:ml-0-1 lg:font-bold lg:text-2-0 '>{item.title}</div>
+                            </div>
+                        })}
+                    </div>
                 </div>
             </div>
-            <div className='w-full h-64-0 bg-no-repeat bg-support-module-team flex flex-col justify-end items-center pb-2-0 text-shadow lg:bg-pad-support-module-team lg:h-52-6'>
+            <div className='w-full h-64-0 bg-no-repeat bg-support-module-team flex flex-col justify-end items-center pb-2-0 text-shadow lg:bg-pad-support-module-team lg:h-52-6 xl:bg-pc-support-module-team xl:h-67-5'>
                 <div className='px-1-5 text-white text-center'>
-                    <div className='text-4-0 font-semibold mb-3-0 lg:text-6-0 lg:leading-5-5'><span className='text-module-title'>Our </span>Team <br></br>Mission</div>
+                    <div className='text-4-0 font-semibold mb-3-0 lg:text-6-0 lg:leading-5-5 xl:leading-6-6'><span className='text-module-title'>Our </span>Team <br></br>Mission</div>
                     <div className='leading-2-5 text-1-2 lg:leading-1-8 lg:text-1-2'>
                         Our team's mission is to lead <br className='lg:hidden'></br> millions of users into a more  <br className='lg:hidden'></br>secure and dynamic Web3 world. <br></br> Through unremitting efforts and <br className='lg:hidden'></br>technological innovation, we are <br className='lg:hidden'></br> committed to providing <br className='hidden lg:block'></br> users with <br className='lg:hidden'></br> a seamless digital asset <br className='lg:hidden'></br> management experience and  <br className='lg:hidden'></br>opening the door for them  <br className='hidden lg:block'></br>to  <br className='lg:hidden'></br>explore the world of blockchain.
                     </div>
@@ -57,8 +59,8 @@ const SupportAssets = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full pt-2-9 bg-black'>
-                <div className='pl-1-8 lg:pl-5-8 lg:mb-11-8'>
+            <div className='w-full pt-2-9 bg-black xl:pt-8-0'>
+                <div className='pl-1-8 lg:pl-5-8 lg:mb-11-8 xl:pl-16-8'>
                     <div className='text-module-title text-4-0 mb-1-0 font-semibold lg:text-6-0'>
                         Version
                     </div>
@@ -89,14 +91,14 @@ const SupportAssets = () => {
                                         </div></div>}
                                 </div>
                                 <div className='hidden lg:block w-full text-white mb-10-0'>
-                                    <div className='w-full px-8-7 flex justify-between items-start'>
+                                    <div className='w-full px-8-7 flex justify-between items-start xl:px-19-8'>
                                         <div className='w-18-7 '>
                                             <img src={item.img} alt=''></img>
                                         </div>
-                                        <div className='ml-2-5 flex-1'>
+                                        <div className='ml-2-5 flex-1 xl:ml-7-0 xl:w-57-2'>
                                             <div className='text-module-title text-3-0 mb-2-0 font-semibold'>{item.title}</div>
                                             <div className='text-1-5 mb-3-0'>{item.introduction}</div>
-                                            <div>
+                                            <div className='xl:w-57-2'>
                                                 {item.detailItems.map((_item, _index) => {
                                                     return <div key={_index} className='text-1-5 mb-2-0'>{_item}</div>
                                                 })}
