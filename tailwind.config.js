@@ -26,10 +26,16 @@ module.exports = {
         "wallet-module-explore-small": "url('/public/images/phone/wallet-module-explore-small.png')",
 
         "support-module-info": "url('/public/images/phone/support-module-info.png')",
+        "pad-support-module-info": "url('/public/images/pad/support-module-info.png')",
+
 
         "support-module-team": "url('/public/images/phone/support-module-team.png')",
+        "pad-support-module-team": "url('/public/images/pad/support-module-team.png')",
+
 
         "support-module-vision": "url('/public/images/phone/support-module-vision.png')",
+        "pad-support-module-vision": "url('/public/images/pad/support-module-vision.png')",
+
 
 
         "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",
