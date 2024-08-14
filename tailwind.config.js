@@ -74,7 +74,8 @@ module.exports = {
         'about-adv': '#646877',
         'install-download': '#38302B',
         'install-create': '#2B221D',
-        'install-manage': '#190F0C'
+        'install-manage': '#190F0C',
+        'advantages-item': '#4C5062'
       },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),
