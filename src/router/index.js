@@ -5,6 +5,8 @@ const Layout = lazy(() => import('../components/Layout'))
 const Home = lazy(() => import('../pages/Home'))
 const Wallet = lazy(() => import('../pages/Wallet'))
 const SupportAssets = lazy(() => import('../pages/SupportAssets'))
+const About = lazy(() => import('../pages/About'))
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -21,6 +23,10 @@ const router = createBrowserRouter([
             {
                 path: '/support-assets',
                 element: <Suspense><SupportAssets></SupportAssets></Suspense>
+            },
+            {
+                path: '/about-us',
+                element: <Suspense><About></About></Suspense>
             }
         ]
     }

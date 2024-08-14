@@ -38,6 +38,7 @@ module.exports = {
         "support-module-vision": "url('/public/images/phone/support-module-vision.png')",
         "pad-support-module-vision": "url('/public/images/pad/support-module-vision.png')",
 
+        "about-module-download": "url('/public/images/phone/about-module-download.png')",
 
 
         "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",
@@ -48,7 +49,9 @@ module.exports = {
         "pad-home-download-button": "url('/public/images/pad/home-download-button.png')",
         "pc-home-download-button": "url('/public/images/pc/home-download-button.png')",
 
-        "home-choose-banner": "url('/public/images/phone/home-choose-banner.png')"
+        "home-choose-banner": "url('/public/images/phone/home-choose-banner.png')",
+        "pad-home-choose-banner": "url('/public/images/pad/home-choose-banner.png')"
+
       },
       colors: {
         'primary-yellow': '#F9D54A',
@@ -67,7 +70,11 @@ module.exports = {
         'support-title': "#392821",
         'primary-yellow10': 'rgba(201,201,224,.1)',
         'title-word': '#222222',
-        'version-title': '#383330'
+        'version-title': '#383330',
+        'about-adv': '#646877',
+        'install-download': '#38302B',
+        'install-create': '#2B221D',
+        'install-manage': '#190F0C'
       },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),

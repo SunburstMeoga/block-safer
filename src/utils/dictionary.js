@@ -34,7 +34,7 @@ export const versionInfoItems = [
         showMore: false
     },
     {
-        id: 3, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-one.png',
+        id: 3, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-two.png',
         detailItems: [
             '(1) The first version is released, including basic wallet functions, such as private key management, digital asset viewing, simple transaction functions, etc.',
             '(2) Users can safely store and manage their cryptocurrency assets',
@@ -43,12 +43,35 @@ export const versionInfoItems = [
         showMore: false
     },
     {
-        id: 2, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-one.png',
+        id: 2, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-three.png',
         detailItems: [
             '(1) The first version is released, including basic wallet functions, such as private key management, digital asset viewing, simple transaction functions, etc.',
             '(2) Users can safely store and manage their cryptocurrency assets',
             '(3) Provides a simple and intuitive user interface to facilitate users to get started.'
         ],
         showMore: false
+    },
+]
+
+export const downloadMethodItems = [
+    {
+        id: 1,
+        title: 'IOS',
+        img: '/images/phone/download-apple.png'
+    },
+    {
+        id: 2,
+        title: 'Google Play',
+        img: '/images/phone/download-google.png'
+    },
+    {
+        id: 3,
+        title: 'Android',
+        img: '/images/phone/download-android.png'
+    },
+    {
+        id: 4,
+        title: 'Android APK',
+        img: '/images/phone/download-apk.png'
     },
 ]

@@ -24,7 +24,7 @@ const Home = () => {
                 Here's everything you <br className="xl:hidden"></br> need to <br className="hidden xl:block"></br> manage your <br className="xl:hidden"></br> digital assets
               </div>
             </div>
-            <div className='w-full bg-home-choose-banner bg-no-repeat bg-center  flex justify-start items-center text-white h-24-8'>
+            <div className='w-full bg-home-choose-banner bg-no-repeat bg-center  flex justify-start items-center text-white h-24-8 lg:bg-pad-home-choose-banner'>
               <div className='flex flex-col items-center justify-start px-2-0  h-23-9'>
                 <div className='font-medium px-5-5 mb-4-1 mt-2-8'>
                   <div className='text-1-2  mb-0-3'>Save costs</div>
@@ -60,8 +60,25 @@ const Home = () => {
           <div className='flex flex-col justify-start items-center px-2-7 text-module-title text-2-2 mb-1-0 lg:text-2-5 lg:mb-2-6 xl:text-4-0'>
             Installation Steps
           </div>
-          <div className='bg-module-title w-full h-13-7 lg:h-36-0 xl:h-67-5'>
-
+          <div className='w-full h-13-7 flex justify-between items-center text-module-title lg:h-36-0 xl:h-67-5'>
+            <div className="w-1/3 bg-install-download flex flex-col justify-start items-center  h-13-7 lg:h-36-0 xl:h-67-5">
+              <div className="text-1-0 font-medium mt-1-2 mb-2-0 lg:text-2-0 lg:mb-6-0 lg:mt-2-4 xl:text-3-0  xl:mt-5-9 xl:mb-15-0">Download</div>
+              <div className="w-5-9 lg:w-15-4 xl:w-28-9">
+                <img src='/images/phone/install-download.png'></img>
+              </div>
+            </div>
+            <div className="w-1/3 bg-install-create flex flex-col justify-start items-center h-13-7 lg:h-36-0 xl:h-67-5">
+              <div className="text-1-0 font-medium mt-1-2 mb-1-0 lg:text-2-0 lg:mb-4-0 lg:mt-2-4 xl:text-3-0  xl:mt-5-9 xl:mb-12-0">Create</div>
+              <div className="w-full">
+                <img src='/images/phone/install-create.png'></img>
+              </div>
+            </div>
+            <div className="w-1/3 bg-install-manage flex flex-col justify-start items-center h-13-7 lg:h-36-0 xl:h-67-5">
+              <div className="text-1-0 font-medium mt-1-2 mb-2-0 lg:text-2-0 lg:mb-6-0 lg:mt-2-4 xl:text-3-0  xl:mt-5-9 xl:mb-15-0">Manage</div>
+              <div className="w-5-5 lg:w-14-4 xl:w-28-9">
+                <img src='/images/phone/install-manage.png'></img>
+              </div>
+            </div>
           </div>
         </div>
       </div>
