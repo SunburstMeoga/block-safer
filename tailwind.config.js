@@ -50,7 +50,9 @@ module.exports = {
         "pc-home-download-button": "url('/public/images/pc/home-download-button.png')",
 
         "home-choose-banner": "url('/public/images/phone/home-choose-banner.png')",
-        "pad-home-choose-banner": "url('/public/images/pad/home-choose-banner.png')"
+        "pad-home-choose-banner": "url('/public/images/pad/home-choose-banner.png')",
+        "pc-home-choose-banner": "url('/public/images/pc/home-choose-banner.png')"
+
 
       },
       colors: {
