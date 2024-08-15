@@ -17,14 +17,14 @@ const FooterBar = () => {
         <div className='w-full pl-1-7 text-footer-logo text-1-2 font-medium leading-1-5 mb-5-1 lg:px-6-0 xl:px-9-0 lg:text-2-0 lg:leading-2-8 lg:mb-4-5'>
           A one-stop intelligent <br className='lg:hidden'></br> management <br className='hidden lg:block'></br> platform for <br className='lg:hidden'></br> digital wallets.
         </div>
-        <div className='w-full pl-1-7 text-footer-logo lg:hidden'>
+        {/* <div className='w-full pl-1-7 text-footer-logo lg:hidden'>
           <div className='flex justify-start items-center mb-2-0'>
             <div className='w-0-4 h-0-4 bg-footer-logo'></div>
             <div className='ml-1-0 text-1-5 font-semibold'>Website support</div>
           </div>
           <div className='pl-1-4 text-1-2 mb-2-0'>Community</div>
           <div className='pl-1-4 text-1-2 mb-2-0'>Technical Support</div>
-        </div>
+        </div> */}
         <div className='w-full h-0-1 bg-footer-logo mb-2-2'></div>
         <div className='w-full lg:flex justify-between items-center lg:px-2-0 lg:pb-7-0 xl:px-5-7 xl:pb-5-4'>
           <div className=''>
@@ -38,13 +38,13 @@ const FooterBar = () => {
               })}
             </div>
           </div>
-          <div className='hidden text-footer-logo pr-4-0 lg:block lg:mt-2-0 xl:pr-5-7'>
+          {/* <div className='hidden text-footer-logo pr-4-0 lg:block lg:mt-2-0 xl:pr-5-7'>
             <div className='flex justify-start items-center mb-2-0'>
               <div className='text-1-5 font-semibold'>Website support</div>
             </div>
             <div className='text-1-2 mb-2-0'>Community</div>
             <div className='text-1-2 mb-2-0'>Technical Support</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

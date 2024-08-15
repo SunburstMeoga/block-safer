@@ -64,143 +64,154 @@ const About = () => {
                             <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a11@4x.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Absolute privacy and security
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a1.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Seamlessly integrate with mainstream blockchain networks
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a12@4x.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Accessible worldwide questions and compatibility
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a3 1.png' alt=''></img>
                                     </div>
                                     <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
+                                        user friendly interface
                                     </div>
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Easy to get started
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a5.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+                                    {/* <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
+                                        user friendly interface
+                                    </div> */}
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Excellent performance
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a14@4x.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+                                    {/* <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
+                                        user friendly interface
+                                    </div> */}
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Built-in smart contract interaction function
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a13@4x.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+                                    {/* <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
+                                        user friendly interface
+                                    </div> */}
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Unparalleled reliability and stability
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a10@4x.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+                                    {/* <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
+                                        user friendly interface
+                                    </div> */}
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Real-time updates and security patches ensure system health
+
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a2.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+                                    {/* <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
+                                        user friendly interface
+                                    </div> */}
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Unrivaled security
+
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a9@4x.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+                                    {/* <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
+                                        user friendly interface
+                                    </div> */}
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Absolute privacy and security
+
+
                                     </div>
                                 </div>
 
-                            </SwiperSlide><SwiperSlide className='rounded-2xl overflow-hidden'>
+                            </SwiperSlide>
+                            <SwiperSlide className='rounded-2xl overflow-hidden'>
                                 <div className='w-17-5 h-17-0 bg-advantages-item rounded-2xl pt-2-2  pl-2-0'>
                                     <div className='w-6-8 '>
-                                        <img src='/images/phone/advantages-speed.png' alt=''></img>
+                                        <img src='/images/phone/a6.png' alt=''></img>
                                     </div>
-                                    <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
-                                        Efficient blockchain transactions --
-                                    </div>
+                                    {/* <div className='text-0-8 w-2/3 leading-1-1 font-bold '>
+                                        user friendly interface
+                                    </div> */}
                                     <div className='text-1-3 leading-2-5 font-bold '>
-                                        Confirmation speed
+                                        Track and manage
+                                        Asset management is more convenient
+
+
                                     </div>
                                 </div>
 
