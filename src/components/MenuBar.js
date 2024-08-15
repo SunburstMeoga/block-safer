@@ -4,18 +4,25 @@ import { useNavigate } from 'react-router-dom'
 const MenuBar = () => {
   let navigate = useNavigate()
   let [currentMenu, changeCurrentMenu] = useState(1)
+  let [showPhoneMenu, setShowPhoneMenu] = useState(false)
   const handleMenuItem = ({ id, router }) => {
     changeCurrentMenu(id)
     navigate(router)
+    setShowPhoneMenu(showPhoneMenu = false)
     console.log(currentMenu)
   }
   const handleLogo = () => {
     navigate('/')
+    setShowPhoneMenu(showPhoneMenu = false)
+
+  }
+  const handleMenuIcon = () => {
+    setShowPhoneMenu(showPhoneMenu = !showPhoneMenu)
   }
   return (
-    <div>
-      <div className='w-full px-1-0 flex justify-between items-center h-4-5  fixed z-20 bg-transparent lg:h-6-0 xl:bg-transparent xl:px-1-9'>
-        <div onClick={handleLogo} className='flex justify-start items-center cursor-pointer  transition duration-100 ease-in rounded-lg pr-0-8 active:bg-primary-yellow '>
+    <div className=''>
+      <div className='w-full px-1-0 flex justify-between items-center h-4-5  fixed z-20 bg-transparent lg:h-6-0 xl:bg-transparent xl:px-1-9 '>
+        <div onClick={handleLogo} className='flex justify-start items-center cursor-pointer  transition duration-100 ease-in rounded-lg pr-0-8 active:-translate-x-0-3'>
           <div className='w-3-9'>
             <img src='/images/phone/logo.png' alt=''></img>
           </div>
@@ -27,7 +34,7 @@ const MenuBar = () => {
           </div>
           <div className='hidden xl:flex justify-end items-center'>
             {menuItems.map((item, index) => {
-              return <div key={index} onClick={() => handleMenuItem(item)} className={`${currentMenu === item.id ? ' text-primary-yellow text-1-2' : 'text-white font-normal text-1-0'} w-9-5 text-center cursor-pointer hover:text-primary-yellow transition ease-in duration-300`}>
+              return <div key={index} onClick={() => handleMenuItem(item)} className={`${currentMenu === item.id ? ' ' : 't'} w-9-5 text-center cursor-pointer hover:text-primary-yellow transition ease-in duration-300`}>
                 {item.title}
               </div>
             })}
@@ -36,8 +43,15 @@ const MenuBar = () => {
             <div className='text-1-5 xl:text-1-0 xl:font-semibold'>中文 </div>
             <div className='text-0-9 xl:text-1-0 xl:font-semibold'>/ English</div>
           </div>
-          <div className='icon iconfont icon-menu text-menu-icon text-1-8 ml-1-5 lg:ml-2-2 xl:hidden' ></div>
+          <div onClick={handleMenuIcon} className='icon iconfont icon-menu text-menu-icon text-1-8 ml-1-5 lg:ml-2-2 xl:hidden' >
+
+          </div>
         </div>
+      </div>
+      <div className={`fixed top-4-3 w-full px-2-0  bg-title-word text-white z-20 transition ease-in-out duration-300 ${showPhoneMenu ? ' scale-y-100 h-19-0' : 'scale-y-0 h-0-1 '}`}>
+        {menuItems.map((item, index) => {
+          return showPhoneMenu && <div onClick={() => handleMenuItem(item)} key={index} className='h-6-3 text-1-5 pl-3-8 flex justify-start items-center rounded-lg transition ease-in-out duration-300 active:bg-primary-yellow active:text-white'>{item.title}</div>
+        })}
       </div>
     </div>
   )
