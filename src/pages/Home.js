@@ -38,20 +38,20 @@ const Home = () => {
               <div className='flex flex-col items-center justify-start px-2-0  h-23-9 lg:h-33-5 lg:px-0-1 xl:h-57-8'>
                 <div className='font-medium px-5-5 mb-4-1 mt-2-8 lg:mt-4-9 xl:mt-9-0 xl:mb-12-0'>
                   <div className='text-1-2  mb-0-3 xl:text-2-0 xl:mb-3-0'>Save costs</div>
-                  <div className='text-1-2 leading-1-1 lg:hidden'>Compared with traditional mining, it will save 99.5% of energy consumption.</div>
+                  <div className='text-0-8 leading-1-1 lg:hidden'>Compared with traditional mining, it will save 99.5% of energy consumption.</div>
                   <div className='hidden leading-1-1 lg:block font-medium text-0-9 '>Use proof-of-stake as a <br className="xl:hidden"></br> mining method <br className="hidden xl:block"></br>.Compared <br className="xl:hidden"></br> with traditional mining, it will <br></br> save 99.5% of energy  <br className="xl:hidden"></br>consumption.</div>
 
                 </div>
                 <div className='flex justify-between items-center w-full'>
                   <div className='font-medium w-8-8 pl-1-0 lg:w-11-3 lg:pl-0-1 xl:w-15-7'>
                     <div className='text-1-2  mb-0-3 xl:text-2-0'>Fast Trading</div>
-                    <div className='text-1-2 leading-1-1 lg:hidden'>Here you will enjoy a 1,000,000tps self-service trading experience</div>
+                    <div className='text-0-8 leading-1-1 lg:hidden'>Here you will enjoy a 1,000,000tps self-service trading experience</div>
                     <div className='leading-1-1 hidden lg:block font-medium text-0-9'>Here you will enjoy a 1,000,000tps self-trading experience and can complete transactions in an instant.</div>
 
                   </div>
                   <div className='font-medium w-8-8 pl-1-0 lg:w-11-3 lg:pl-2-0 xl:w-20-7  xl:pl-9-1'>
                     <div className='text-1-2  mb-0-3 xl:text-2-0'>Efficient management</div>
-                    <div className='text-1-2 leading-1-1 lg:hidden'>Improve asset usage efficiency.</div>
+                    <div className='text-0-8 leading-1-1 lg:hidden'>Improve asset usage efficiency.</div>
                     <div className="leading-1-1 hidden lg:block font-medium text-0-9">Supports the creation of multiple wallets, efficiently manages digital assets, and improves asset usage efficiency.</div>
                   </div>
                 </div>
