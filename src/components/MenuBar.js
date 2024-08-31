@@ -34,7 +34,7 @@ const MenuBar = () => {
           </div> */}
           <div className='hidden xl:flex justify-end items-center'>
             {menuItems.map((item, index) => {
-              return <div key={index} onClick={() => handleMenuItem(item)} className={`${currentMenu === item.id ? ' ' : 't'} w-9-5 text-center cursor-pointer hover:text-primary-yellow transition ease-in duration-300`}>
+              return <div key={index} onClick={() => handleMenuItem(item)} className={`${currentMenu === item.id ? ' ' : 't'} w-9-5 text-white text-center cursor-pointer hover:text-primary-yellow transition ease-in duration-300`}>
                 {item.title}
               </div>
             })}
