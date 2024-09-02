@@ -13,7 +13,7 @@ const Wallet = () => {
         <div className='pt-4-4 bg-black lg:pt-6-0 lg:pb-6-3 xl:pb-0-1'>
             <div className='w-full flex-col justify-start items-center px-1-2 lg:px-4-0 xl:px-6-4'>
                 <div className='rounded-3xl bg-gradient-wallet-explore lg:mt-3-8 xl:mt-auto '>
-                    <div className={`transition duration-500 ease-in bg-bottom bg-cover bg-no-repeat bg-wallet-module-explore px-2-7 py-3-3 lg:py-5-0 xl:px-4-2 xl:bg-none xl:bg-right-bottom ${focusSearch ? 'h-38-9 lg:h-32-5 xl:h-39-0' : 'h-35-4 lg:h-30-5'}`}>
+                    <div className={`transition duration-500 ease-in bg-bottom bg-cover bg-no-repeat bg-cover bg-wallet-module-explore px-2-7 py-3-3 lg:py-5-0 xl:px-4-2 xl:bg-none xl:bg-right-bottom ${focusSearch ? 'h-38-9 lg:h-32-5 xl:h-39-0' : 'h-35-4 lg:h-30-5'}`}>
                         <div className='bg-clip-text bg-gradient-home-title text-2-2 font-medium text-transparent mb-1-4 lg:text-3-0 xl:text-3-4'>
                             Explore
                         </div>

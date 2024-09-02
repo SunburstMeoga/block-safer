@@ -19,7 +19,7 @@ const SupportAssets = () => {
     }
     return (
         <div className='pt-4-4 bg-support-title lg:pt-6-0 xl:pt-0-1'>
-            <div className='w-full bg-no-repeat bg-bottom  bg-support-module-info h-60-1 mt-1-5 lg:bg-pad-support-module-info lg:h-72-0 lg:mt-2-5 xl:bg-pc-support-module-info xl:h-67-5  xl:mt-auto'>
+            <div className='w-full bg-no-repeat bg-cover bg-bottom  bg-support-module-info h-60-1 mt-1-5 lg:bg-pad-support-module-info lg:h-72-0 lg:mt-2-5 xl:bg-pc-support-module-info xl:h-67-5  xl:mt-auto'>
                 <div className='w-full xl:flex justify-between items-start xl:pt-9-9 '>
                     <div className='w-full px-3-1 lg:px-0-1 lg:mb-23-0 xl:mb-0-1 xl:px-0-1 xl:mt-8-0'>
                         {infoItems.map((item, index) => {
@@ -41,7 +41,7 @@ const SupportAssets = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-64-0 bg-no-repeat bg-support-module-team flex flex-col justify-end items-center pb-2-0 text-shadow lg:bg-pad-support-module-team lg:h-52-6 xl:bg-pc-support-module-team xl:h-67-5'>
+            <div className='w-full h-64-0 bg-no-repeat bg-cover bg-contain bg-support-module-team flex flex-col justify-end items-center pb-2-0 text-shadow lg:bg-pad-support-module-team lg:h-52-6 xl:bg-pc-support-module-team xl:h-67-5'>
                 <div className='px-1-5 text-white text-center'>
                     <div className='text-4-0 font-semibold mb-3-0 lg:text-6-0 lg:leading-5-5 xl:leading-6-6'><span className='text-module-title'>Our </span>Team <br></br>Mission</div>
                     <div className='leading-2-5 text-1-2 lg:leading-1-8 lg:text-1-2'>
@@ -49,7 +49,7 @@ const SupportAssets = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-54-1 bg-no-repeat bg-support-module-vision bg-top bg-title-word flex flex-col justify-end items-center lg:h-57-2 lg:bg-pad-support-module-vision'>
+            <div className='w-full h-54-1 bg-no-repeat bg-cover bg-support-module-vision bg-top bg-title-word flex flex-col justify-end items-center lg:h-57-2 lg:bg-pad-support-module-vision'>
                 <div className='px-1-8 text-white text-shadow  text-center flex flex-col justify-start items-center'>
                     <div className='text-2-0 leading-4-1  mb-10-0 lg:text-4-0 lg:mb-10-0'>
                         OUR VISION

@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div className=' bg-black  xl:pt-0-1 lg:bg-transparent lg:pt-0-1'>
             <div className='w-full pt-4-4 lg:hidden'></div>
-            <div className='w-full h-70-3 bg-no-repeat bg-cover bg-center bg-about-module-download lg:bg-no-repeat lg:bg-pad-about-module-download lg:h-44-8 xl:bg-pc-about-module-download xl:h-66-4'>
+            <div className='w-full h-70-3 bg-no-repeat bg-cover bg-cover bg-center bg-about-module-download lg:bg-no-repeat bg-cover lg:bg-pad-about-module-download lg:h-44-8 xl:bg-pc-about-module-download xl:h-66-4'>
                 <div className='w-full pt-7-3 px-7-9 mb-1-2 lg:flex lg:justify-center lg:items-center lg:pt-13-1'>
                     <div className='lg:w-8-8 xl:w-15-6'>
                         <img src='/images/phone/logo-white.png' alt=''></img>
@@ -219,7 +219,7 @@ const About = () => {
                         </Swiper>
                     </div>
                 </div>
-                <div className='hidden lg:flex bg-no-repeat bg-pad-ad-module w-full h-54-4 justify-center  items-center text-white'>
+                <div className='hidden lg:flex bg-no-repeat bg-cover bg-pad-ad-module w-full h-54-4 justify-center  items-center text-white'>
                     <Swiper
                         // 配置分页
                         pagination={{
