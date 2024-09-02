@@ -1,7 +1,12 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom'
 const FooterBar = () => {
+  const navigate = useNavigate()
   const socialMediaItems = [{ icon: 'icon-tuite', link: '' }, { icon: 'icon-Linkedin', link: '' }, { icon: 'icon-instagram', link: '' }, { icon: 'icon-discord', link: '' },]
+  const handlePrivacyPolicy = () => {
+    console.log('object')
+    navigate('/privacy-policy')
+  }
   return (
     <>
       <div className='w-full bg-black'>
@@ -28,6 +33,10 @@ const FooterBar = () => {
         <div className='w-full h-0-1 bg-footer-logo mb-2-2'></div>
         <div className='w-full lg:flex justify-between items-center lg:px-2-0 lg:pb-7-0 xl:px-5-7 xl:pb-5-4'>
           <div className=''>
+            <div onClick={() => handlePrivacyPolicy()} className='w-full px-3-3 text-footer-word flex justify-between items-center mb-2-0'>
+              <div className='text-1-0 lg:font-bold'>Privacy Policy</div>
+              <div className='text-1-0 icon iconfont icon-right ml-0-2 '></div>
+            </div>
             <div className='w-full px-3-3 text-footer-word flex justify-between items-center mb-2-0'>
               <div className='text-1-0 lg:font-bold'>Please follow our social platforms</div>
               <div className='text-1-0 icon iconfont icon-right ml-0-2 '></div>
