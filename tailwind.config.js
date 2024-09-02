@@ -39,7 +39,11 @@ module.exports = {
         "pad-support-module-vision": "url('/public/images/pad/support-module-vision.png')",
 
         "about-module-download": "url('/public/images/phone/about-module-download.png')",
+        "pad-about-module-download": "url('/public/images/pad/pad-about-module-download.png')",
+        "pc-about-module-download": "url('/public/images/pc/pc-about-module-download.png')",
 
+
+        "pad-ad-module": "url('/public/images/pad/pad-ad-module.png')",
 
         "home-module-advantage": "url('/public/images/phone/home-module-advantage.png')",
         "pad-home-module-advantage": "url('/public/images/pad/home-module-advantage.png')",
