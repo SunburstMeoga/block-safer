@@ -34,20 +34,20 @@ export const versionInfoItems = [
         showMore: false
     },
     {
-        id: 3, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-two.png',
+        id: 3, title: 'Version 1.1.0', introduction: 'release date: February 10, 2024', img: '/images/phone/support-version-two.png',
         detailItems: [
-            '(1) The first version is released, including basic wallet functions, such as private key management, digital asset viewing, simple transaction functions, etc.',
-            '(2) Users can safely store and manage their cryptocurrency assets',
-            '(3) Provides a simple and intuitive user interface to facilitate users to get started.'
+            '(1) The smart contract interaction function is introduced, and users can interact with smart contracts and participate in decentralized financial services.',
+            '(2) Multi-chain support has been added, allowing users to manage digital assets on a variety of different blockchains. ',
+            '(3) Performance and user experience have been optimized, and transaction speed and stability have been improved.'
         ],
         showMore: false
     },
     {
-        id: 2, title: 'Version 1.0.0', introduction: 'release date: January 15,2024', img: '/images/phone/support-version-three.png',
+        id: 2, title: 'Version 1.2.0', introduction: 'release date: March 20, 2024', img: '/images/phone/support-version-three.png',
         detailItems: [
-            '(1) The first version is released, including basic wallet functions, such as private key management, digital asset viewing, simple transaction functions, etc.',
-            '(2) Users can safely store and manage their cryptocurrency assets',
-            '(3) Provides a simple and intuitive user interface to facilitate users to get started.'
+            '(1) A new multi-signature function is added, providing an additional level of security to protect users’ digital assets from unauthorized access.',
+            '(2) Automatic backup and recovery functions are introduced, so users no longer worry about accidentally losing wallet data.',
+            '(3) The interface details and user interaction have been optimized to improve the overall user experience and make the wallet more user-friendly and friendly.'
         ],
         showMore: false
     },
