@@ -1,9 +1,4 @@
 @font-face {
-    font-family: PoppinsRegular;
-    src: url('./fonts/Poppins-Regular.ttf');
-}
-
-@font-face {
-    font-family: PoppinsBold;
-    src: url('./fonts/Poppins-Bold.ttf');
+    font-family: SpaceGroteskVariableFontWght;
+    src: url('./fonts/SpaceGrotesk-VariableFont_wght.ttf')
 }
