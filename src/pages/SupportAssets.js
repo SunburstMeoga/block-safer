@@ -86,7 +86,7 @@ const SupportAssets = () => {
                                         </div>
                                         <div className='text-white text-1-2 px-1-8 leading-1-9'>
                                             {item.detailItems.map((_item, _index) => {
-                                                return <div className='mb-2-0 '>{_item}</div>
+                                                return <div key={_index} className='mb-2-0 '>{_item}</div>
                                             })}
                                         </div></div>}
                                 </div>
