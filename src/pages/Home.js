@@ -1,5 +1,9 @@
 
 const Home = () => {
+  const handleDownloadClick = () => {
+    console.log('click')
+    window.open('/block-safer.apk', '_blank');
+  };
   return (
     <>
       <div className='pt-4-4 bg-black lg:pt-6-0 xl:pt-0-1'>
@@ -18,7 +22,7 @@ const Home = () => {
           </video>
 
         </div>
-        <div className='w-full px-5-6 h-3-3 -mt-1-5   lg:px-18-5 lg:-mt-8-4 lg:h-5-7 relative z-10 xl:-mt-14-3'>
+        <div onClick={() => handleDownloadClick()} className='w-full px-5-6 h-3-3 -mt-1-5   lg:px-18-5 lg:-mt-8-4 lg:h-5-7 relative z-10 xl:-mt-14-3'>
           <div className='bg-home-download-button bg-no-repeat  bg-center w-full h-3-3 text-white text-1-5 flex justify-center items-center cursor-pointer duration-300 transition hover:scale-105 lg:bg-pad-home-download-button lg:h-5-7 lg:text-2-3 xl:bg-pc-home-download-button xl:h-8-3'>
             Download
           </div>
@@ -63,7 +67,7 @@ const Home = () => {
           <div className='pt-3-4 text-module-title text-2-2 flex justify-center items-center lg:text-2-5 xl:text-4-0 xl:pt-4-7'>
             Our Advantage
           </div>
-          <div className='w-full px-5-6 absolute bottom-0-6 xl:bottom-0-1'>
+          <div onClick={() => handleDownloadClick()} className='w-full px-5-6 absolute bottom-0-6 xl:bottom-0-1'>
             <div className='bg-home-download-button bg-no-repeat  bg-center w-full h-3-3 text-white text-1-5 flex justify-center items-center  lg:bg-pad-home-download-button lg:h-5-7 lg:text-2-3 xl:bg-pc-home-download-button xl:h-8-3'>
               Download
             </div>
