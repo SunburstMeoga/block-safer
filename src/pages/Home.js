@@ -28,7 +28,7 @@ const Home = () => {
           </div>
         </div>
         <div className='w-full flex flex-col justify-start items-center bg-black pt-2-5 h-43-5 lg:h-42-0 lg:pt-3-6 xl:h-67-5 xl:pt-0-1 xl:mt-12-8'>
-          <div className=' w-full  bg-home-module-choose bg-no-repeat  bg-center pt-2-7 lg:bg-pad-home-module-choose xl:bg-pc-home-module-choose xl:h-67-5 xl:pt-7-7'>
+          <div className=' w-full  bg-home-module-choose bg-no-repeat bg-cover bg-center pt-2-7 lg:bg-pad-home-module-choose xl:bg-pc-home-module-choose xl:h-67-5 xl:pt-7-7'>
             <div className='pl-2-5 mb-1-3 lg:pl-4-6 xl:pl-9-3'>
               <div className='w-5-5 bg-module-title h-0-2 mb-1-0 lg:w-8-8 lg:mb-0-4'></div>
               <div className='text-2-2 mb-0-2 leading-5-6 text-module-title lg:text-2-5 xl:text-4-0'>
@@ -63,7 +63,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='h-47-8 bg-center  bg-no-repeat bg-home-module-advantage relative  lg:bg-pad-home-module-advantage lg:h-80-0 xl:h-92-8 xl:bg-pc-home-module-advantage'>
+        <div className='h-47-8 bg-center  bg-no-repeat bg-cover bg-home-module-advantage relative  lg:bg-pad-home-module-advantage lg:h-80-0 xl:h-92-8 xl:bg-pc-home-module-advantage'>
           <div className='pt-3-4 text-module-title text-2-2 flex justify-center items-center lg:text-2-5 xl:text-4-0 xl:pt-4-7'>
             Our Advantage
           </div>
