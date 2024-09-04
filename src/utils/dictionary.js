@@ -43,11 +43,12 @@ export const versionInfoItems = [
         showMore: false
     },
     {
-        id: 2, title: 'Version 1.2.0', introduction: 'release date: March 20, 2024', img: '/images/phone/support-version-three.png',
+        id: 2, title: 'Version 2.0.0', introduction: 'release date: March 20, 2024', img: '/images/phone/support-version-three.png',
         detailItems: [
             '(1) A new multi-signature function is added, providing an additional level of security to protect users’ digital assets from unauthorized access.',
             '(2) Automatic backup and recovery functions are introduced, so users no longer worry about accidentally losing wallet data.',
-            '(3) The interface details and user interaction have been optimized to improve the overall user experience and make the wallet more user-friendly and friendly.'
+            '(3) The interface details and user interaction have been optimized to improve the overall user experience and make the wallet more user-friendly and friendly.',
+            '(4) Partnering with 3AT, we have introduced a cross-chain bridge feature, enhancing the convenience of cross-chain asset transfers for users.'
         ],
         showMore: false
     },
