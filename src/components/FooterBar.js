@@ -22,6 +22,25 @@ const FooterBar = () => {
         <div className='w-full pl-1-7 text-footer-logo text-1-2 font-medium leading-1-5 mb-5-1 lg:px-6-0 xl:px-9-0 lg:text-2-0 lg:leading-2-8 lg:mb-4-5'>
           A one-stop intelligent <br className='lg:hidden'></br> management <br className='hidden lg:block'></br> platform for <br className='lg:hidden'></br> digital wallets.
         </div>
+        <div className='lg:hidden w-full px-1-7 text-footer-logo'>
+          <div className='w-full flex justify-start items-start mb-2-0'>
+            <div className='w-0-5 h-0-5 bg-footer-logo mt-0-6'></div>
+            <div className='ml-1-0'>
+              <div className='font-semibold text-1-5 mb-2-0'>Website support</div>
+              <div className='text-1-3  mb-2-0'>Community</div>
+              <div className='text-1-3'>Technical Support</div>
+            </div>
+          </div>
+          <div className='w-full flex justify-start items-start mb-2-0'>
+            <div className='w-0-5 h-0-5 bg-footer-logo mt-0-6'></div>
+            <div className='ml-1-0'>
+              <div className='font-semibold text-1-5'>Partners</div>
+              <div className='w-6-6 '>
+                <img className='' src='/images/phone/partners.png'></img>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* <div className='w-full pl-1-7 text-footer-logo lg:hidden'>
           <div className='flex justify-start items-center mb-2-0'>
             <div className='w-0-4 h-0-4 bg-footer-logo'></div>
@@ -47,13 +66,22 @@ const FooterBar = () => {
               })}
             </div>
           </div>
-          {/* <div className='hidden text-footer-logo pr-4-0 lg:block lg:mt-2-0 xl:pr-5-7'>
-            <div className='flex justify-start items-center mb-2-0'>
-              <div className='text-1-5 font-semibold'>Website support</div>
+          <div className='hidden  text-footer-logo pr-4-0 lg:flex justify-end items-start xl:pr-5-7'>
+            <div className=''>
+              <div className='font-semibold text-1-5'>Partners</div>
+              <div className='w-6-6'>
+                <img className='' src='/images/phone/partners.png'></img>
+              </div>
             </div>
-            <div className='text-1-2 mb-2-0'>Community</div>
-            <div className='text-1-2 mb-2-0'>Technical Support</div>
-          </div> */}
+            <div className='lg:ml-2-0 xl:ml-4-0'>
+              <div className='flex justify-start items-center mb-2-0'>
+                <div className='text-1-5 font-semibold'>Website support</div>
+              </div>
+              <div className='text-1-2 mb-2-0'>Community</div>
+              <div className='text-1-2 mb-2-0'>Technical Support</div>
+            </div>
+
+          </div>
         </div>
       </div>
     </>

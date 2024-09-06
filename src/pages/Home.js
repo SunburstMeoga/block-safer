@@ -27,10 +27,10 @@ const Home = () => {
             Download
           </div>
         </div>
-        <div className="text-center w-full text-module-title mt-4-0 my-1-0 text-2-0 lg:text-2-5 xl:text-4-0 xl:mt-12-0">Partners</div>
+        {/* <div className="text-center w-full text-module-title mt-4-0 my-1-0 text-2-0 lg:text-2-5 xl:text-4-0 xl:mt-12-0">Partners</div>
         <div className=" mx-auto w-6-3 lg:w-7-0 xl:w-9-5">
           <img src="/images/phone/partners.png"></img>
-        </div>
+        </div> */}
         <div className='w-full flex flex-col justify-start items-center bg-black pt-2-5 h-43-5 lg:h-42-0 lg:pt-3-6 xl:h-67-5 xl:pt-0-1 xl:mt-12-8'>
           <div className=' w-full  bg-home-module-choose bg-no-repeat bg-cover bg-center pt-2-7 lg:bg-pad-home-module-choose xl:bg-pc-home-module-choose xl:h-67-5 xl:pt-7-7'>
             <div className='pl-2-5 mb-1-3 lg:pl-4-6 xl:pl-9-3'>
