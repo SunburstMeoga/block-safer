@@ -36,7 +36,9 @@ const FooterBar = () => {
             <div className='ml-1-0'>
               <div className='font-semibold text-1-5'>Partners</div>
               <div className='w-6-6 '>
-                <img className='' src='/images/phone/partners.png'></img>
+                <a href='https://www.3at.org/' target='_blank'>
+                  <img className='' src='/images/phone/partners.png'></img>
+                </a>
               </div>
             </div>
           </div>
@@ -70,7 +72,9 @@ const FooterBar = () => {
             <div className=''>
               <div className='font-semibold text-1-5'>Partners</div>
               <div className='w-6-6'>
-                <img className='' src='/images/phone/partners.png'></img>
+                <a href='https://www.3at.org/' target='_blank'>
+                  <img className='' src='/images/phone/partners.png'></img>
+                </a>
               </div>
             </div>
             <div className='lg:ml-2-0 xl:ml-4-0'>
