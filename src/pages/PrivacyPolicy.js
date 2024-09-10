@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
             <div className='text-footer-logo px-1-7 border-b border-gray-900 py-2-0'>
                 <div className='text-1-2 mb-1-0'>1. INTRODUCTION</div>
                 <div className='text-0-8 font-light'>
-                    <div className='mb-1-0 leading-1-4'>Thank you for visiting 1key.so / BlockSafer.so (the “Site”) or the BlockSafer app (the “App”). </div>
+                    <div className='mb-1-0 leading-1-4'>Thank you for visiting BlockSafer.so / BlockSafer.so (the “Site”) or the BlockSafer app (the “App”). </div>
                     <div className='leading-1-4'>BlockSafer, as a data controller, provides this Privacy Policy Statement (“Privacy Policy”) to describe our practices regarding the collection, storage, use, disclosure, and other processing of Personal Data (defined below). By visiting, accessing, or using the Site and associated application program interfaces or mobile applications, you (a) acknowledge that you have the right, capacity, and authority to accept this Privacy Policy; (b) acknowledge that you have read and understand this Privacy Policy; and (c) consent to the policies and practices outlined in this Privacy Policy. So please read them carefully to understand what we do.</div>
                 </div>
             </div>
