@@ -2,7 +2,7 @@
 const Home = () => {
   const handleDownloadClick = () => {
     console.log('click')
-    window.open('/Block Safer v2.4.2.apk', '_blank');
+    window.open('/Block Safer v2.5.0.apk', '_blank');
   };
   return (
     <>
